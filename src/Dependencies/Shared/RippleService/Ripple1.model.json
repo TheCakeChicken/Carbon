@@ -1,0 +1,10 @@
+{
+    "Name": "RippleOne",
+    "ClassName": "ImageLabel",
+    "Properties": {
+        "Image": {
+            "Type": "String",
+            "Value": "rbxassetid://409142945"
+        }
+    }
+}

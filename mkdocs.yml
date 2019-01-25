@@ -1,0 +1,18 @@
+site_name: Carbon Documentation
+theme:
+  name: 'material'
+dev_addr: '127.0.0.1:8001'
+markdown_extensions:
+  - admonition
+  - pymdownx.tilde
+nav:
+- Home: 'index.md'
+- Carbon Configuration:
+    - 'Introduction': 'settings/index.md'
+- Customising:
+    - 'Getting started': 'customising/index.md'
+- Editing the MainModule:
+    - 'Getting started': 'mainmodule/index.md'
+- Carbon API:
+    - 'Server': 'API/server.md'
+    - 'Client': 'API/client.md'

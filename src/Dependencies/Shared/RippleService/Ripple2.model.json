@@ -1,0 +1,10 @@
+{
+    "Name": "RippleTwo",
+    "ClassName": "ImageLabel",
+    "Properties": {
+        "Image": {
+            "Type": "String",
+            "Value": "rbxasset://textures/WhiteCircle.png"
+        }
+    }
+}
