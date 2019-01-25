@@ -1,0 +1,10 @@
+{
+    "name":"Carbon",
+    "servePort": 8000,
+    "partitions":{
+        "Src":{
+            "path":"src",
+            "target":"ServerScriptService.MainModule"
+        }
+    }
+}
