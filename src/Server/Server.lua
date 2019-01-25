@@ -8,7 +8,16 @@
 
 local origPrint = print
 local origWarn = warn
+local script = script
+local game = game
+getfenv().script = nil
+getfenv().game = nil
+
 local print = function(...) origPrint('[Carbon : Info] ', ...) end
+local warn = function(...) origWarn('[Carbon : Important] ', ...) end
+local alert = function(...) origWarn('[Carbon : Alert] ', ...) end
+local error = function(...) origWarn('[Carbon : ERROR] ', ...) end
+
 
 return function(custom, data)
     print('Loaded')
