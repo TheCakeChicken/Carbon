@@ -7,5 +7,5 @@
 --]]
 
 return function(custom, data)
-    
+    print('Loaded')
 end
