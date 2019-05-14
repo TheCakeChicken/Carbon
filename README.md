@@ -1,3 +1,6 @@
+# CARBON IS DISCONTINUED.
+Carbon is being replaced with [Electra](https://github.com/thecakechicken/electra).
+
 # Carbon
 Carbon is a ROBLOX Administration script, that is built to be highly customizable.
 
